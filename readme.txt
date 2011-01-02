@@ -1,6 +1,6 @@
 The class is written so that you can easily add your own regular expression patterns.
 
-It’s important to note that the Regex class consists of static methods. That means you do not need to create an instance of the Regex class to use the methods.
+It's important to note that the Regex class consists of static methods. That means you do not need to create an instance of the Regex class to use the methods.
 
 The class contains 4 methods as part of the main interface:
 
@@ -45,7 +45,7 @@ echo Regex::hasAny("html,int,float","Jolly Jolly")? "Found" : "Not Found"; //Not
 Regex::getDescription($type)
 Description: returns a string describing $type
 
-You’ll see in the source code that there are two private arrays. $pattern takes the form “type” => “regexpattern”, while $description takes the form “type” => “description”. $description is where these strings are pulled from.***
+You'll see in the source code that there are two private arrays. $pattern takes the form “type” => “regexpattern”, while $description takes the form “type” => “description”. $description is where these strings are pulled from.***
 
 If you use this class for form processing, it will be useful to get a nicely formatted description of the pattern type.
 Example:

@@ -1,0 +1,9 @@
+#Ignore komodo project files
+.komodotools
+Regex.komodoproject
+mail.js
+mail.php
+MailClass.php
+regexclass.txt
+regextest.php
+nonweb/
